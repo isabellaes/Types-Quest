@@ -1,0 +1,21 @@
+.quest-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  ul {
+    list-style-type: none;
+  }
+
+  .add {
+    padding: 1em;
+    background-color: greenyellow;
+    margin: 5px;
+    width: fit-content;
+  }
+
+  .quest {
+    padding: 1em;
+    background-color: springgreen;
+    margin: 5px;
+  }
+}
